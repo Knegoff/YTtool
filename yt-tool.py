@@ -1,3 +1,13 @@
+import nltk
+
+# Add the correct path where 'punkt' data is stored
+nltk.data.path.append("/home/ec2-user/nltk_data")
+
+# Ensure the 'punkt' tokenizer is available
+nltk.download('punkt', download_dir="/home/ec2-user/nltk_data")
+
+
+
 # Import necessary libraries
 import streamlit as st  # Streamlit for building the UI
 import googleapiclient.discovery  # To interact with YouTube API
