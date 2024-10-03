@@ -36,7 +36,7 @@ MarkupSafe==2.1.5
 mdurl==0.1.2
 narwhals==1.9.0
 nltk==3.9.1
-numpy
+numpy==2.0.2
 packaging==24.1
 pandas==2.2.3
 pefile==2021.9.3
